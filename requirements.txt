@@ -10,3 +10,4 @@ panda3d>=1.10.14
 highway-env>=1.10.0
 onnx>=1.14.0
 ultralytics>=8.0.0
+
