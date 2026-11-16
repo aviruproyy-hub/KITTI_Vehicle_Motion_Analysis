@@ -1,0 +1,42 @@
+# ==============================================================================
+# KITTI Autonomous Vehicle Motion Control - Git Ignore
+# ==============================================================================
+
+# Raw Sensor & Image Datasets (>13 GB - Keep locally, do not push to GitHub)
+raw_data/
+*.zip
+*.tar
+*.tar.gz
+
+# Temporary Perception & YOLO runs
+runs/
+yolo*.pt
+*.onnx.data
+
+# Python Bytecode and Caches
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+
+# Virtual Environments
+venv/
+.venv/
+env/
+.env/
+ENV/
+
+# IDE & Editor Settings
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
+.DS_Store
+Thumbs.db
+
+# Logs & Temporary Scratch
+*.log
+scratch/
+tmp/
+temp/
